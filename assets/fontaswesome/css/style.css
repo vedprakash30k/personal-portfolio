@@ -1,0 +1,147 @@
+.Experience {
+    background-color: #62dbfc;
+}
+
+.Experience:hover,
+.Education:hover,
+.Education-1:hover,
+.Education-2:hover,
+.C-1:hover,
+.C-2:hover,
+.C-4:hover,
+.map:hover {
+    cursor: pointer;
+    border-radius: 0.375rem;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #FA5252;
+    --tw-gradient-to: rgb(250 82 82 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #DD2476;
+    color: white;
+
+}
+
+.Education {
+    background-color: #b6fad7;
+}
+
+.Education-1 {
+    background-color: #c2b6fa;
+}
+
+.Education-2 {
+    background-color: #fab6f1;
+}
+
+.C-1 {
+    background-color: #89f5e8;
+}
+
+.C-2 {
+    background-color: #8e97fa;
+}
+
+.C-4 {
+    background-color: #f5f189;
+}
+
+.map {
+    background-color: #b3fffb;
+}
+
+#K1 {
+    background-color: #3498db;
+    opacity: 1;
+    color: white;
+}
+
+#K2 {
+    background-color: #2ecc71;
+    opacity: 1;
+    color: white;
+}
+
+#K3 {
+    background-color: #e74c3c;
+    opacity: 1;
+    color: white;
+}
+
+#K4 {
+    background-color: #f39c12;
+    opacity: 1;
+    color: white;
+}
+
+#K5 {
+    background-color: #9b59b6;
+    opacity: 1;
+    color: white;
+}
+
+#K6 {
+    background-color: #27ae60;
+    opacity: 1;
+    color: white;
+}
+
+#K7 {
+    background-color: #34495e;
+    opacity: 1;
+    color: white;
+}
+
+#K8 {
+    background-color: #c0392b;
+    opacity: 1;
+    color: white;
+}
+
+#K9 {
+    background-color: #7a3bf7;
+    opacity: 1;
+    color: white;
+}
+
+#K1:hover,
+#K2:hover,
+#K3:hover,
+#K4:hover,
+#K5:hover,
+#K6:hover,
+#K7:hover,
+#K8:hover,
+#K9:hover {
+    border-radius: 0.375rem;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #FA5252;
+    --tw-gradient-to: rgb(250 82 82 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #DD2476;
+    color: white;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.dark .dark\:bg-transparent:hover {
+    cursor: pointer;
+    border-radius: 0.375rem;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #FA5252;
+    --tw-gradient-to: rgb(250 82 82 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #DD2476;
+    color: white;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .dark\:bg-transparent:hover:nth-child() {
+    color: white;
+}
